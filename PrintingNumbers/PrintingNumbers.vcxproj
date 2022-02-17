@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{047eeae6-91e3-4858-adba-a0831b53f745}</ProjectGuid>
-    <RootNamespace>AbsDiff</RootNamespace>
+    <ProjectGuid>{66dab210-c76f-43d5-9825-69ce26a60f51}</ProjectGuid>
+    <RootNamespace>PrintingNumbers</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AbsDiff.cpp" />
+    <ClCompile Include="PrintingNumbers.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

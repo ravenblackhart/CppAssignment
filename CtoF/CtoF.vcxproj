@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{047eeae6-91e3-4858-adba-a0831b53f745}</ProjectGuid>
-    <RootNamespace>AbsDiff</RootNamespace>
+    <ProjectGuid>{0300401d-63e1-4024-b15f-38ba38e72c36}</ProjectGuid>
+    <RootNamespace>CtoF</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AbsDiff.cpp" />
+    <ClCompile Include="CtoF.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
