@@ -1,4 +1,6 @@
 #include <iostream>
+#include <cstdlib>
+#include <ctime>
 using namespace std;
 
 int main()
@@ -6,7 +8,9 @@ int main()
     int max;
     int min;
     int secret;
-    int input; 
+    int input;
+
+    srand(time(0)); 
 
     cout << "Guess The Number\n" << endl;
 
